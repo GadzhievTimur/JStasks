@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+}
+
+#panel {
+    margin: 0;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    max-width: 400px;
+    box-shadow: 0 0 10px 1px gray;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+#editTab {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+#status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    display: flex;
+    justify-content: space-around;
+}
+
+#list {
+    display: block;    
+}
+.need {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.need:hover {
+    background: lightgray;
+}
